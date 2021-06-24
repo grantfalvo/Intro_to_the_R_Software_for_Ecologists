@@ -1,4 +1,4 @@
-### Loading and combinding datasets and creating summarised datasets
+### Loading and combining datasets and creating summarised datasets
 
 dat_raw=read.csv(header=T,skip=29,file='https://lter.kbs.msu.edu/datatables/39.csv')
 dat=dat_raw[-1,]

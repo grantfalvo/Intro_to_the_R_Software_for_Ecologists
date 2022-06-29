@@ -146,14 +146,101 @@ tails/flips
 
 # create a dataframe that represents a deck of cards
 
+deck=data.frame(index=1:52,
+                rank=rep(c(2:10,10,10,10,11),4),
+                name=rep(c(2:10,'Jack','Queen','King','Ace'),4),
+                suit=c(rep('Spade',13),
+                       rep('Club',13),
+                       rep('Heart',13),
+                       rep('Diamond',13)))
+View(deck)
+
 # shuffle the cards into a random order
 
-# deal two cards to the dealer 
+shuffle = function(x) {x[sample(1:nrow(x)), ]}
+head(deck)
+deck=shuffle(deck)
+head(deck)
+# create a function that deals 2 cards 
+# then deal two cards to the dealer and two to the player
 
-# write a function that decides if the dealer should hit or not
+deal = function(x) {x[sample(1:nrow(x),2,replace=F), ]}
+
+dealer=deal(deck)
+player=deal(deck)
+
+head(dealer)
+head(player)
+
+# write a function that checks the current sum of a player's hand
+# then create a 'hit' function that adds one card to a player's hand
+# then create an if statement that decides if the dealer should hit 
+# and if so, add one card to the dealer's hand
+
+current_sum=function(x) {sum(x$rank)}
+current_sum(dealer)
+
+hit = function(x) {x[sample(1:nrow(x),1,replace=F), ]}
+
+for (i in 1:10) {
+if (current_sum(dealer)<17) {
+  dealer=rbind(dealer,hit(deck))
+}
+}
+
+head(dealer)
+current_sum(dealer)
 
 # write a function that decides if the dealer's hand has gone over 21
 
-# BONUS, write a function that allows you to play blackjack against the dealer
+bust=function(x) {
+  if(current_sum(x)>21){
+    print('Bust!')
+  } else {
+    print('Not bust')
+  }
+}
+
+bust(dealer)
+
+# use the hit function to add a card to the player's hand at your desecration
+
+head(player)
+current_sum(player)
+stay= TRUE
+if (stay==TRUE) {
+  player=rbind(player,hit(deck))
+}
+head(player)
+current_sum(player)
+
+# right a function to decide who won the round, then check who won
+
+winner=function(dealer,player) {
+  if ((dealer > 22) & (player < 22)) {
+    print('Player wins!')
+  }
+  if ((player > 22) & (dealer < 22)) {
+    print('Player wins!')
+  }
+  if ((player > dealer) & (player < 22)) {
+    print('Player wins!')
+  }
+  if ((dealer > player) & (dealer < 22)) {
+    print('Dealer wins!')
+  }
+  if ((dealer == player) & (dealer < 22)) {
+    print('Tie')
+  }
+}
+
+current_sum(dealer)
+current_sum(player)
+winner(current_sum(dealer),current_sum(player))
+
+# BONUS, write a script that allows one player to play blackjack against 
+# the dealer, and loop over this 1,000 times to see who wins in the long run.
+
+
 
 

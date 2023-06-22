@@ -1,0 +1,75 @@
+name,type,sugar,oil,flour,egg,leavening,liquid,yeast
+Cinnamon Cookies,cookie,236.59,118.29,354.88,1,4.92,0,0
+Oatmeal Raisin Cookies,cookie,473,236.59,473.18,2,10,0,0
+Soft Snickerdoodle Cookies,cookie,400,236.59,650.62,2,4.92,0,0
+Soft Peanut Butter Cookies,cookie,473,236.59,591.47,2,10,0,0
+Chewy Chocolate Cookies,cookie,473.18,295.73,473.18,2,4.92,0,0
+Soft Molasses Cookies,cookie,350,177.44,591.47,1,9.85,0,0
+Best Pumpkin Cookies,cookie,118.29,236.59,473.18,1,10,0,0
+Chocolate Chip Cookies,cookie,354.88,236,591.47,2,4.92,0,0
+Double Chocolate Chip Cookies,cookie,473.18,266.16,473.18,2,4.92,0,0
+Gingerbread Cookies,cookie,177.44,88.74,709.77,1,11,0,0
+Soft Snickerdoodle Cookies 2,cookie,354.88,236.59,650.62,2,4.92,0,0
+Whipped Shortbread Cookies,cookie,118.29,236.59,354.88,0,0,0,0
+Butter Cookies,cookie,177.44,226.79,473.18,1,0,0,0
+Soft Sugar Cookies,cookie,177.44,157.8,473.18,2,9.85,0,0
+Cranberry Oatmeal Cookies,cookie,118.29,226.79,191.35,2,4.92,0,0
+Chewy Coconut Cookies,cookie,118.29,236.59,295.73,1,2.46,0,0
+Banana Cake,cake,502.75,177.44,709.77,3,7.39,354.88,0
+Dark Chocolate Cake,cake,473.18,118.29,414.03,2,15,436.59,0
+Carrot Cake,cake,414.03,236.59,473.18,3,15,0,0
+Angel Food Cake,cake,300,0,236.59,12,0,0,0
+German Apple Cake,cake,473.18,177.44,473.18,2,4.92,0,0
+Pumpkin Cake Bars,cake,394.39,236.59,473.18,4,15,0,0
+Cinnamon Flop Brunch Cake,cake,295.73,0,473.18,1,14.78,295.73,0
+Apple Or Pear Cake,cake,470,236.59,709.77,3,4.92,0,0
+Almost Tortuga Rum Cake,cake,354.88,160,473.18,4,19.71,118.29,0
+Vanilla Birthday Cake,cake,473.18,236.59,550,4,0,0,0
+Red Velvet Cake,cake,354.88,118.29,532.32,2,4.92,236.59,0
+Hershey's Chocolate Cake,cake,473.18,118.29,414.03,2,15,470,0
+Lemon Pound Cake,cake,236.59,118.29,354.88,2,4.92,132.29,0
+Strawberry Coffee Cake,cake,118.29,29.58,236.59,1,9.85,118.29,0
+New Jersey Crumb Cake,cake,236.59,118.29,473.18,2,9.85,177.44,0
+Sour Cream Yellow Cake,cake,473.18,236.59,473.18,2,4.92,236.59,0
+Banana-chocolate Chip Muffins,muffin,236.59,0,354.88,1,4.92,78.78,0
+Sweetest Blueberry Muffins,muffin,236.59,118.29,473.18,2,9.85,236.59,0
+Chocolate Chip Muffins,muffin,78.78,118.29,473.18,2,9.85,0,0
+Apple Pie Muffins,muffin,354.88,157.8,591.47,1,4.92,236.59,0
+Cinnamon Muffins,muffin,118.29,78.78,354.88,1,9.85,118.29,0
+Lemon Poppy Seed Muffins,muffin,157.8,118.29,315.37,2,7.5,148.29,0
+Berry-smash Muffins,muffin,158.51,78.78,354.88,2,2.46,0,0
+Carrot Pineapple Muffins,muffin,236.59,157.8,354.88,2,15,0,0
+Pecan Pie Muffins,muffin,236.59,118.29,118.29,2,0,0,0
+Cappuccino Muffins,muffin,177.44,118.29,473.18,1,12.32,236.59,0
+Zucchini Nut Muffins,muffin,394.39,236.59,709.77,3,6.2,0,0
+Baklava Muffins,muffin,59.14,44.37,236.59,1,12,236.59,0
+Peanut Butter Banana Muffins,muffin,118.29,29.58,473.18,2,14.79,177.44,0
+Morning Glory Muffins,muffin,177.44,157.8,315.37,2,7.39,0,0
+Blueberry Cream Cheese Muffins,muffin,177.44,59.14,473.18,2,10,132.29,0
+Yogurt Muffins,muffin,236.59,118.29,473.18,2,4.92,0,0
+Banana Bread,bread,236.59,118.29,354.88,2,4.92,0,0
+Sweet Cornbread,bread,157.8,123.15,473.17,2,14.79,295.73,0
+Grilled Rosemary Bread,bread,14.79,29.58,591.47,0,0,236.59,14.79
+Naan,bread,0,0,946.36,0,4.92,473.18,0
+Flat Bread,bread,0,29.58,500,0,0,300,7
+Sourdough Bread,bread,0,14.79,709.77,0,0,591.47,0
+Hamburger Buns,bread,59.14,78.78,828.06,1,0,266,29.58
+Wheat Bread,bread,125,78.78,1774.42,0,0,650.62,29.58
+Italian Breadstick,bread,0,44.37,709.77,0,0,236.59,11
+Oatmeal Bread,bread,125.2602,14.79,700,0,0,295.73,4.92
+White Bread,bread,14.79,29.58,887.21,0,0,315.37,4.92
+Baguette,bread,4.92,0,1064.65,0,0,354.88,7.08
+New York Bagel,bagel,14.79,0,1833.57,0,0,591.47,4.92
+Home-baked Bagel,bagel,42.52,0,828.06,1,0,354.88,22
+Water Bagel,bagel,44.37,0,946.36,1,0,354.88,11
+Bread Machine Bagel,bagel,49.29,0,709.77,0,0,295.73,12.32
+Montreal Bagels,bagel,74,44.37,1064.65,1,0,354.88,11
+Onion Bagel,bagel,59.16,0,1360.39,1,0,473.18,22
+Express Bagel,bagel,14.79,0,591.47,0,0,236,2.46
+Gluten Free Bagels,bagel,10,0,590,2,12,157.8,29.58
+Basic Bagels,bagel,44.37,0,1182.95,0,0,354.88,11
+Cinnamon Raisin Bagels,bagel,64.79,0,709.77,0,0,295,12.32
+Sourdough Bagels,bagel,55,0,709.77,0,0,295.73,12.32
+Emily's Rockin Bagels,bagel,15,0,946.36,0,0,354.88,29.58
+Plain Bagels,bagel,59.14,0,1182.95,0,0,394.39,15
+Cornmeal Bagels,bagel,29.58,30,884,1,0,236.59,11.09

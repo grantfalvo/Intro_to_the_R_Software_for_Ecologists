@@ -25,6 +25,13 @@ custom_theme=  theme(
   text=element_text(size=15,color = 'Black'),
   axis.text = element_text(size=15,color = 'Black'))
 
+### set working directory
+### change path to your downloaded R workshop folder
+### use full path name
+setwd(
+  '/Users/falvo/Desktop/Dissertation/intro_to_R_workshop/ESA_R_Workshop'
+)
+
 ### MODIS API explorer website
 'https://modis.ornl.gov/rst/ui/#!/products/get_products'
 
